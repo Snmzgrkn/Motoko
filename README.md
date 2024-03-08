@@ -12,27 +12,30 @@ This Hesap Makinesi (Calculator) project was created as part of the Internet Com
 ### Functions
 
 #### Toplama (Addition)
-```motoko
+```
 public func toplama(s: Int) : async Int {
   hucre += s;
   hucre
 }
-Cikarma (Subtraction)
-motoko
+```
+#### Cikarma (Subtraction)
+```
 Copy code
 public func cikarma(s: Int) : async Int {
   hucre -= s;
   hucre
 }
-Carpma (Multiplication)
-motoko
+```
+#### Carpma (Multiplication)
+```
 Copy code
 public func carpma(s: Int) : async Int {
   hucre *= s;
   hucre
 }
-Bolme (Division)
-motoko
+```
+#### Bolme (Division)
+```
 Copy code
 public func bolme(s: Int) : async ?Int {
   if (s == 0) {
@@ -42,17 +45,19 @@ public func bolme(s: Int) : async ?Int {
     ?hucre
   }
 }
-Temizle (Clear)
-motoko
-Copy code
+```
+#### Temizle (Clear)
+
+```
 public func temizle() : async () {
   hucre := 0;
 }
-Usage
+```
+
+#### Usage
 To use the Hesap Makinesi, you can create an instance of the hesap_makinesi actor and call its functions.
 
-motoko
-Copy code
+```
 import hesap_makinesi "path/to/hesap_makinesi";
 
 actor {
@@ -64,15 +69,14 @@ actor {
 
   // Continue with other operations...
 }
-Notes
+```
+#### Notes
 This project was developed for educational purposes during the Internet Computer Internship Bootcamp.
 Author
 Gürkan Sönmez
 
-License
+#### License
 This project is licensed under the MIT License.
 
-css
-Copy code
 
 Feel free to modify and customize the README file according to your specific details and re
