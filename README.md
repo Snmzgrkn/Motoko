@@ -74,9 +74,3 @@ actor {
 This project was developed for educational purposes during the Internet Computer Internship Bootcamp.
 Author
 Gürkan Sönmez
-
-#### License
-This project is licensed under the MIT License.
-
-
-Feel free to modify and customize the README file according to your specific details and re
